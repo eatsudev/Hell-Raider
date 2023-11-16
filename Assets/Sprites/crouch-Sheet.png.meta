@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b97debbab73ce3544adb9d5679023f59
+guid: 0b6eb2306abd06542bd9ac00748132f8
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -129,12 +129,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: HellRiderCharacrouch_Attack-Sheet_0
+      name: crouch-Sheet_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1284
+        width: 953.3333
         height: 860
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -143,19 +143,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e09bf70030a3385459a0ba948941621b
-      internalID: -119605940
+      spriteID: 0b796235c80c9d04da1ddba456db7e42
+      internalID: 13045640
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HellRiderCharacrouch_Attack-Sheet_1
+      name: crouch-Sheet_1
       rect:
         serializedVersion: 2
-        x: 1284
+        x: 953
         y: 0
-        width: 1284
+        width: 953.3333
         height: 860
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -164,19 +164,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff81a82d2c2c57e4e944c047c1b00588
-      internalID: -1462766565
+      spriteID: 58fab5b6ca69a764d8040f3371c41804
+      internalID: -383556573
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HellRiderCharacrouch_Attack-Sheet_2
+      name: crouch-Sheet_2
       rect:
         serializedVersion: 2
-        x: 2568
+        x: 1906
         y: 0
-        width: 1284
+        width: 953.3333
         height: 860
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -185,50 +185,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb54e8f7e32953f49bd869b06be251ee
-      internalID: 67909330
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HellRiderCharacrouch_Attack-Sheet_3
-      rect:
-        serializedVersion: 2
-        x: 3852
-        y: 0
-        width: 1284
-        height: 860
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f18d632057b263c4ab52ace91fae5bde
-      internalID: 1748905845
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HellRiderCharacrouch_Attack-Sheet_4
-      rect:
-        serializedVersion: 2
-        x: 5136
-        y: 0
-        width: 1284
-        height: 860
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c68c0dca82e472f40b5a6e8dd0428dc3
-      internalID: -1390299031
+      spriteID: 269ddea29ad74bb49b7d87282aef1b3e
+      internalID: 1865414932
       vertices: []
       indices: 
       edges: []
@@ -244,11 +202,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      HellRiderCharacrouch_Attack-Sheet_0: -119605940
-      HellRiderCharacrouch_Attack-Sheet_1: -1462766565
-      HellRiderCharacrouch_Attack-Sheet_2: 67909330
-      HellRiderCharacrouch_Attack-Sheet_3: 1748905845
-      HellRiderCharacrouch_Attack-Sheet_4: -1390299031
+      crouch-Sheet_0: 13045640
+      crouch-Sheet_1: -383556573
+      crouch-Sheet_2: 1865414932
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

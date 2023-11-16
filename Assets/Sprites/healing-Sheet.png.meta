@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b97debbab73ce3544adb9d5679023f59
+guid: a6e61e7903c55b64480b8d6ca22db6ff
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -129,13 +129,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: HellRiderCharacrouch_Attack-Sheet_0
+      name: healing-Sheet_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1284
-        height: 860
+        width: 940
+        height: 930
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,20 +143,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e09bf70030a3385459a0ba948941621b
-      internalID: -119605940
+      spriteID: d83cdc45e1b0d894ea8c7fd6cc6dd87e
+      internalID: -1040843923
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HellRiderCharacrouch_Attack-Sheet_1
+      name: healing-Sheet_1
       rect:
         serializedVersion: 2
-        x: 1284
+        x: 940
         y: 0
-        width: 1284
-        height: 860
+        width: 940
+        height: 930
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -164,20 +164,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff81a82d2c2c57e4e944c047c1b00588
-      internalID: -1462766565
+      spriteID: 18209eb884e371d42a698b109038efca
+      internalID: -249820466
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HellRiderCharacrouch_Attack-Sheet_2
+      name: healing-Sheet_2
       rect:
         serializedVersion: 2
-        x: 2568
+        x: 1880
         y: 0
-        width: 1284
-        height: 860
+        width: 940
+        height: 930
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -185,20 +185,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb54e8f7e32953f49bd869b06be251ee
-      internalID: 67909330
+      spriteID: 620ef229c90853f4d89959c9b28ff1f3
+      internalID: 1445344560
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HellRiderCharacrouch_Attack-Sheet_3
+      name: healing-Sheet_3
       rect:
         serializedVersion: 2
-        x: 3852
+        x: 2820
         y: 0
-        width: 1284
-        height: 860
+        width: 940
+        height: 930
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,20 +206,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f18d632057b263c4ab52ace91fae5bde
-      internalID: 1748905845
+      spriteID: cd2ded7e0b6723545ab5ab69887c50f6
+      internalID: -1163276867
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HellRiderCharacrouch_Attack-Sheet_4
+      name: healing-Sheet_4
       rect:
         serializedVersion: 2
-        x: 5136
+        x: 3760
         y: 0
-        width: 1284
-        height: 860
+        width: 940
+        height: 930
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -227,8 +227,134 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c68c0dca82e472f40b5a6e8dd0428dc3
-      internalID: -1390299031
+      spriteID: b2755a12ebdd80b4e97476276165edc8
+      internalID: 32637297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: healing-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 4700
+        y: 0
+        width: 940
+        height: 930
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5101bcac33c41c741b3698c12b528ad5
+      internalID: -1318498755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: healing-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 5640
+        y: 0
+        width: 940
+        height: 930
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3b28dfd5a3b7264491e0e27e4a4ba7d
+      internalID: -1754559933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: healing-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 6580
+        y: 0
+        width: 940
+        height: 930
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fbeb6d89eb56ee4b8be05441468ebb9
+      internalID: -969830404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: healing-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 7520
+        y: 0
+        width: 940
+        height: 930
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6b34d73801628d4e97c40ce42d2573f
+      internalID: 1975492374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: healing-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 8460
+        y: 0
+        width: 940
+        height: 930
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a566c66a539c9fe418541738a6e07955
+      internalID: 98879064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: healing-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 9400
+        y: 0
+        width: 940
+        height: 930
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4791a16cb2f99c0469080e45a1d1a7c2
+      internalID: -1121407477
       vertices: []
       indices: 
       edges: []
@@ -244,11 +370,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      HellRiderCharacrouch_Attack-Sheet_0: -119605940
-      HellRiderCharacrouch_Attack-Sheet_1: -1462766565
-      HellRiderCharacrouch_Attack-Sheet_2: 67909330
-      HellRiderCharacrouch_Attack-Sheet_3: 1748905845
-      HellRiderCharacrouch_Attack-Sheet_4: -1390299031
+      healing-Sheet_0: -1040843923
+      healing-Sheet_1: -249820466
+      healing-Sheet_10: -1121407477
+      healing-Sheet_2: 1445344560
+      healing-Sheet_3: -1163276867
+      healing-Sheet_4: 32637297
+      healing-Sheet_5: -1318498755
+      healing-Sheet_6: -1754559933
+      healing-Sheet_7: -969830404
+      healing-Sheet_8: 1975492374
+      healing-Sheet_9: 98879064
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

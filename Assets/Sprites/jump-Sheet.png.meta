@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b97debbab73ce3544adb9d5679023f59
+guid: 36381b15c3c72364d94f6dda78152198
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -129,13 +129,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: HellRiderCharacrouch_Attack-Sheet_0
+      name: jump-Sheet_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1284
-        height: 860
+        width: 948
+        height: 1000
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,20 +143,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e09bf70030a3385459a0ba948941621b
-      internalID: -119605940
+      spriteID: 3e1cc2ba554ff534181df85b87f02a48
+      internalID: -1716202153
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HellRiderCharacrouch_Attack-Sheet_1
+      name: jump-Sheet_1
       rect:
         serializedVersion: 2
-        x: 1284
+        x: 948
         y: 0
-        width: 1284
-        height: 860
+        width: 948
+        height: 1000
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -164,20 +164,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff81a82d2c2c57e4e944c047c1b00588
-      internalID: -1462766565
+      spriteID: 4e648e56e36f41e46bacb1d956cb3878
+      internalID: 907006305
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HellRiderCharacrouch_Attack-Sheet_2
+      name: jump-Sheet_2
       rect:
         serializedVersion: 2
-        x: 2568
+        x: 1896
         y: 0
-        width: 1284
-        height: 860
+        width: 948
+        height: 1000
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -185,20 +185,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb54e8f7e32953f49bd869b06be251ee
-      internalID: 67909330
+      spriteID: aae24c6a8481a37448f49b3ae98f5ef3
+      internalID: -231044432
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HellRiderCharacrouch_Attack-Sheet_3
+      name: jump-Sheet_3
       rect:
         serializedVersion: 2
-        x: 3852
+        x: 2844
         y: 0
-        width: 1284
-        height: 860
+        width: 948
+        height: 1000
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,20 +206,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f18d632057b263c4ab52ace91fae5bde
-      internalID: 1748905845
+      spriteID: 08e6735c90c48114da983c6644462591
+      internalID: 957445052
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HellRiderCharacrouch_Attack-Sheet_4
+      name: jump-Sheet_4
       rect:
         serializedVersion: 2
-        x: 5136
+        x: 3792
         y: 0
-        width: 1284
-        height: 860
+        width: 948
+        height: 1000
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -227,8 +227,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c68c0dca82e472f40b5a6e8dd0428dc3
-      internalID: -1390299031
+      spriteID: b604ccd15054aaa4697033c019a9c075
+      internalID: 13420149
       vertices: []
       indices: 
       edges: []
@@ -244,11 +244,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      HellRiderCharacrouch_Attack-Sheet_0: -119605940
-      HellRiderCharacrouch_Attack-Sheet_1: -1462766565
-      HellRiderCharacrouch_Attack-Sheet_2: 67909330
-      HellRiderCharacrouch_Attack-Sheet_3: 1748905845
-      HellRiderCharacrouch_Attack-Sheet_4: -1390299031
+      jump-Sheet_0: -1716202153
+      jump-Sheet_1: 907006305
+      jump-Sheet_2: -231044432
+      jump-Sheet_3: 957445052
+      jump-Sheet_4: 13420149
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

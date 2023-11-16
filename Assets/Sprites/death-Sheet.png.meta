@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b97debbab73ce3544adb9d5679023f59
+guid: dec8ef7c75100954c8bdd61c5f6819cf
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -129,13 +129,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: HellRiderCharacrouch_Attack-Sheet_0
+      name: death-Sheet_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1284
-        height: 860
+        width: 1400
+        height: 870
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,20 +143,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e09bf70030a3385459a0ba948941621b
-      internalID: -119605940
+      spriteID: f64826a8cf407ea4fa21a0a7a1b9cb69
+      internalID: 977217622
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HellRiderCharacrouch_Attack-Sheet_1
+      name: death-Sheet_1
       rect:
         serializedVersion: 2
-        x: 1284
+        x: 1400
         y: 0
-        width: 1284
-        height: 860
+        width: 1400
+        height: 870
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -164,20 +164,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff81a82d2c2c57e4e944c047c1b00588
-      internalID: -1462766565
+      spriteID: ea06417d6c9df5347a18bceea8111152
+      internalID: 274808833
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HellRiderCharacrouch_Attack-Sheet_2
+      name: death-Sheet_2
       rect:
         serializedVersion: 2
-        x: 2568
+        x: 2800
         y: 0
-        width: 1284
-        height: 860
+        width: 1400
+        height: 870
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -185,20 +185,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb54e8f7e32953f49bd869b06be251ee
-      internalID: 67909330
+      spriteID: 64cf44f7021f1bd4490ef37cc1d335dc
+      internalID: 686103878
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HellRiderCharacrouch_Attack-Sheet_3
+      name: death-Sheet_3
       rect:
         serializedVersion: 2
-        x: 3852
+        x: 4200
         y: 0
-        width: 1284
-        height: 860
+        width: 1400
+        height: 870
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,29 +206,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f18d632057b263c4ab52ace91fae5bde
-      internalID: 1748905845
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HellRiderCharacrouch_Attack-Sheet_4
-      rect:
-        serializedVersion: 2
-        x: 5136
-        y: 0
-        width: 1284
-        height: 860
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c68c0dca82e472f40b5a6e8dd0428dc3
-      internalID: -1390299031
+      spriteID: 83227f18c46eab542a24207dbf0e8cdd
+      internalID: 192251669
       vertices: []
       indices: 
       edges: []
@@ -244,11 +223,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      HellRiderCharacrouch_Attack-Sheet_0: -119605940
-      HellRiderCharacrouch_Attack-Sheet_1: -1462766565
-      HellRiderCharacrouch_Attack-Sheet_2: 67909330
-      HellRiderCharacrouch_Attack-Sheet_3: 1748905845
-      HellRiderCharacrouch_Attack-Sheet_4: -1390299031
+      death-Sheet_0: 977217622
+      death-Sheet_1: 274808833
+      death-Sheet_2: 686103878
+      death-Sheet_3: 192251669
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
