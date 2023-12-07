@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: Tile_snow1
+  m_Name: Tilemap64_3
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 191225798, guid: ebe0db778779e3f408e2dfab98ffef7a, type: 3}
+  m_Sprite: {fileID: -283727228, guid: 9fe06d7a30c1c8a4ca64d865d105f9d0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1

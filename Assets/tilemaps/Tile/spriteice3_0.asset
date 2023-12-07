@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: Tile_ice
+  m_Name: spriteice3_0
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: -1598220895, guid: ebe0db778779e3f408e2dfab98ffef7a, type: 3}
+  m_Sprite: {fileID: -1518745828, guid: d1de76b0e3b4d5c4d81caea91fa293db, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1

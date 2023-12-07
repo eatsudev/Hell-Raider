@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ebe0db778779e3f408e2dfab98ffef7a
+guid: a6e74598c81b245439d3cb712a49b5da
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -127,91 +127,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: TilemapHellriderall_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 2081
-        width: 1913
-        height: 1919
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5c99c0498713f634cad41e7c4d17d30b
-      internalID: -1598220895
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TilemapHellriderall_1
-      rect:
-        serializedVersion: 2
-        x: 4464
-        y: 2385
-        width: 1950
-        height: 360
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 46ea06d309725d44bad804705d4f16a5
-      internalID: 191225798
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TilemapHellriderall_2
-      rect:
-        serializedVersion: 2
-        x: 4496
-        y: 3665
-        width: 1249
-        height: 335
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4531168bbad12ae489fe628426a0e6e3
-      internalID: 498907677
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TilemapHellriderall_3
-      rect:
-        serializedVersion: 2
-        x: 4496
-        y: 3025
-        width: 1889
-        height: 339
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 307f4554f7f1dbb48bb100508e14e9ff
-      internalID: -770284120
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
@@ -222,11 +138,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      TilemapHellriderall_0: -1598220895
-      TilemapHellriderall_1: 191225798
-      TilemapHellriderall_2: 498907677
-      TilemapHellriderall_3: -770284120
+    nameFileIdTable: {}
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

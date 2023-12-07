@@ -22,7 +22,7 @@ public class PlayerAttack : MonoBehaviour
     
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.J))
+        if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             Attack();
         }
