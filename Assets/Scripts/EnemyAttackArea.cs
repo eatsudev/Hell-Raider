@@ -2,15 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AttackArea : MonoBehaviour
+public class EnemyAttackArea : MonoBehaviour
 {
     private int damage = 1;
 
     private void OnTriggerEnter2D(Collider2D collider)
     {
-        if (collider.GetComponent<EnemyHealth>() != null)
+        if (collider.GetComponent<Health>() != null)
         {
-            EnemyHealth health = collider.GetComponent<EnemyHealth>();
+            Health health = collider.GetComponent<Health>();
             health.Damage(damage);
         }
     }

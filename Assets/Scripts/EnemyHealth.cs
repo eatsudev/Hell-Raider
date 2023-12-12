@@ -2,16 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Health : MonoBehaviour
+public class EnemyHealth : MonoBehaviour
 {
     [SerializeField] private int health = 10;
 
     //private int MAX_HEALTH = 100;
 
-    void Start()
-    {
-        //p
-    }
 
     void Update()
     {
@@ -39,16 +35,12 @@ public class Health : MonoBehaviour
         {
             Die();
         }
+    }
 
-    }
-    public int GetCurrentHealth()
-    {
-        return health;
-    }
 
     private void Die()
     {
-        Debug.Log("dead");
+        Debug.Log("enemydead");
         Destroy(gameObject);
     }
 }
