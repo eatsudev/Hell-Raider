@@ -5,36 +5,51 @@ using UnityEngine.UI;
 
 public class HPCounter : MonoBehaviour
 {
-    public Health playerHealth; // Reference to the Health script on the player GameObject
-    public Text hpText; // Reference to the UI Text element
-
+    private Text hpText;
+    private GameObject playerObject;
     void Start()
     {
-        // Find and store a reference to the Health script on the player GameObject
-        playerHealth = GameObject.FindGameObjectWithTag("Player").GetComponent<Health>();
+        GameObject canvasObject = GameObject.FindWithTag("Canvas");
 
-        // Ensure the playerHealth reference is valid
-        if (playerHealth == null)
+        if (canvasObject != null)
         {
-            Debug.LogError("Health script not found on the player GameObject.");
+            hpText = canvasObject.GetComponentInChildren<Text>();
         }
 
-        // Find and store a reference to the UI Text element
-        hpText = GetComponent<Text>();
-
-        // Ensure the hpText reference is valid
         if (hpText == null)
         {
-            Debug.LogError("Text component not found on the same GameObject.");
+            Debug.LogError("Text component not found in the Canvas.");
         }
+        else
+        {
+            Debug.Log("HPCounter initialized successfully.");
+        }
+
+        // Find the player GameObject by tag and store a reference to it
+        playerObject = GameObject.FindGameObjectWithTag("Player");
     }
 
     void Update()
     {
-        // Update the UI Text with the current health value
-        if (playerHealth != null && hpText != null)
+        // Check if the playerObject is still valid before updating the HP counter
+        if (playerObject != null && hpText != null)
         {
-            hpText.text = ": " + playerHealth.GetCurrentHealth().ToString();
+            hpText.text = ": " + GetCurrentHealth().ToString();
         }
+    }
+
+    public void UpdateHPCounter(int health)
+    {
+        if (playerObject != null && hpText != null)
+        {
+            hpText.text = ": " + health.ToString();
+        }
+    }
+
+    int GetCurrentHealth()
+    {
+        // Assuming the player's health script is on the player GameObject
+        Health playerHealth = playerObject.GetComponent<Health>();
+        return playerHealth != null ? playerHealth.GetCurrentHealth() : 0;
     }
 }
