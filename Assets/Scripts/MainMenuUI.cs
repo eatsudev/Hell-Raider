@@ -5,12 +5,27 @@ using UnityEngine.SceneManagement;
 
 public class MainMenuUI : MonoBehaviour
 {
-    //[SerializeField] private AudioSource clickSound;
+    public Transform playerSpawnPoint;
     public void PlayButton()
     {
         //clickSound.Play();
         SceneManager.LoadScene("Start");
+        ResetPlayerPosition();
+
+        // Ensure time is running at normal speed
+        Time.timeScale = 1f;
     }
+
+    private void ResetPlayerPosition()
+    {
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+
+        if (player != null && playerSpawnPoint != null)
+        {
+            player.transform.position = playerSpawnPoint.position;
+        }
+    }
+
     public void ControlsButton()
     {
         //clickSound.Play();
