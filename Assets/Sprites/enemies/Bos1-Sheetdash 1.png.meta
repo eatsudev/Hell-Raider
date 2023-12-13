@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 03e6eb3663554d2468cb76011eb33a98
+guid: c912e6c2075db414eb29492ae69d44b7
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -129,7 +129,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bos1-Sheetdash_0
+      name: Bos1-Sheetdash 1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -143,14 +143,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e6981b2bfe43e84086700b7654895af
-      internalID: -716054192
+      spriteID: a8bb0b20d215a8c45973f7fa7187ac33
+      internalID: 1051786729
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bos1-Sheetdash_1
+      name: Bos1-Sheetdash 1_1
       rect:
         serializedVersion: 2
         x: 205
@@ -164,14 +164,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf91fea1ec391a04a9e6b9d1e4862251
-      internalID: -1479563211
+      spriteID: 653dc38230283af4a81a1b524191f39d
+      internalID: -1234249341
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bos1-Sheetdash_2
+      name: Bos1-Sheetdash 1_2
       rect:
         serializedVersion: 2
         x: 410
@@ -185,14 +185,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 41b630d73e57b11439f52a3d26027c38
-      internalID: -443738390
+      spriteID: 731630dea29e0534b875096a71d90cb3
+      internalID: -1031154759
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bos1-Sheetdash_3
+      name: Bos1-Sheetdash 1_3
       rect:
         serializedVersion: 2
         x: 615
@@ -206,14 +206,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da06a03fd0c75c84d868133aa13488ab
-      internalID: 624129599
+      spriteID: cc1053eb1ea42ce41ae7fca1433200a5
+      internalID: 417105004
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bos1-Sheetdash_4
+      name: Bos1-Sheetdash 1_4
       rect:
         serializedVersion: 2
         x: 820
@@ -227,14 +227,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6371776440683d549b68b093bad24496
-      internalID: 1862192484
+      spriteID: 640b1ca710d7fe6458d178fc549ce4d0
+      internalID: -1716724021
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bos1-Sheetdash_5
+      name: Bos1-Sheetdash 1_5
       rect:
         serializedVersion: 2
         x: 1025
@@ -248,14 +248,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9498c4f607a0a0649824ef2743e26c88
-      internalID: 1946557916
+      spriteID: ed3171e79cbfde1468b174cc2f804800
+      internalID: 1416443379
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bos1-Sheetdash_6
+      name: Bos1-Sheetdash 1_6
       rect:
         serializedVersion: 2
         x: 1230
@@ -269,14 +269,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 69b30e5aa0b71ab459cbaea606d5abaa
-      internalID: 1187577405
+      spriteID: 2fdf1719d592b2f48852f695a30d88d7
+      internalID: -130683011
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bos1-Sheetdash_7
+      name: Bos1-Sheetdash 1_7
       rect:
         serializedVersion: 2
         x: 1435
@@ -290,8 +290,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd982c6948039564c8d95fe644620864
-      internalID: 1308493525
+      spriteID: 9fa8d66b597051b4cbc938339311dace
+      internalID: -1669155355
       vertices: []
       indices: 
       edges: []
@@ -307,14 +307,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Bos1-Sheetdash_0: -716054192
-      Bos1-Sheetdash_1: -1479563211
-      Bos1-Sheetdash_2: -443738390
-      Bos1-Sheetdash_3: 624129599
-      Bos1-Sheetdash_4: 1862192484
-      Bos1-Sheetdash_5: 1946557916
-      Bos1-Sheetdash_6: 1187577405
-      Bos1-Sheetdash_7: 1308493525
+      Bos1-Sheetdash 1_0: 1051786729
+      Bos1-Sheetdash 1_1: -1234249341
+      Bos1-Sheetdash 1_2: -1031154759
+      Bos1-Sheetdash 1_3: 417105004
+      Bos1-Sheetdash 1_4: -1716724021
+      Bos1-Sheetdash 1_5: 1416443379
+      Bos1-Sheetdash 1_6: -130683011
+      Bos1-Sheetdash 1_7: -1669155355
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
