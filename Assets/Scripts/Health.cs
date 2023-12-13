@@ -24,7 +24,7 @@ public class Health : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.H))
+        if (Input.GetKeyDown(KeyCode.K))
         {
             Heal(1);
         }
@@ -83,8 +83,18 @@ public class Health : MonoBehaviour
         if (animator != null)
         {
             animator.SetBool("IsHealing", true);
+            StartCoroutine(ResetHealingAnimation());
         }
-        else
+        
+    }
+
+    private IEnumerator ResetHealingAnimation()
+    {
+        // Wait for a duration (adjust this based on your animation length)
+        yield return new WaitForSeconds(0.5f);
+
+        // Set the "IsHealing" parameter back to false
+        if (animator != null)
         {
             animator.SetBool("IsHealing", false);
         }
