@@ -10,7 +10,7 @@ public class Health : MonoBehaviour
     private bool isDead = false;
     public Animator animator;
 
-    //private int MAX_HEALTH = 100;
+    private int MAX_HEALTH = 100;
 
     void Start()
     {
@@ -71,7 +71,7 @@ public class Health : MonoBehaviour
 
         // Ensure health doesn't exceed a maximum value if needed
         // For example, if MAX_HEALTH is defined:
-        // health = Mathf.Min(health, MAX_HEALTH);
+        health = Mathf.Min(health, MAX_HEALTH);
 
         // Update the HP counter with the new health value
         if (hpCounter != null)
