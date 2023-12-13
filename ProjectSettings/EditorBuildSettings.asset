@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Platform.unity
     guid: 453f8d3abbb05dc48bdf8b1e33876f69
+  - enabled: 1
+    path: Assets/Scenes/FirstBoss.unity
+    guid: 21cb199896163cc41b61a8507c79f0f1
   m_configObjects: {}
