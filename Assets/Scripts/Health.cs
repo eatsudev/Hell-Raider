@@ -26,7 +26,7 @@ public class Health : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.K))
         {
-            Heal(1);
+            Heal(10);
         }
     }
 

@@ -11,6 +11,7 @@ public class PlayerAttack : MonoBehaviour
     private float timeToAttack = 0.25f;
     private float timer = 0f;
     Animator animator;
+    [SerializeField] private AudioSource attackSFX;
 
     //public GameManager gameManager;
     void Start()
@@ -25,6 +26,7 @@ public class PlayerAttack : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.J))
         {
             Attack();
+            attackSFX.Play();
         }
 
         if (attacking)

@@ -11,6 +11,11 @@ public class MainMenuUI : MonoBehaviour
         //clickSound.Play();
         SceneManager.LoadScene("Start");
     }
+    public void ControlsButton()
+    {
+        //clickSound.Play();
+        SceneManager.LoadScene("Controls");
+    }
 
     public void OptionsButton()
     {
